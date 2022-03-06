@@ -1,0 +1,98 @@
+﻿Day 1:         Introduction to Browser & web
+
+
+
+
+Task :
+
+
+1. Write a blog on Difference between HTTP1.1 vs HTTP2.
+
+
+        -> HTTP : Stands for Hyper  Text  Transfer Protocol  
+        
+
+
+HTTP 1 / HTTP 1.1  - 
+
+
+Protocol : Textual and one request at a time (Head of line).
+
+
+Speed : Slower
+
+
+Features: Optimisation such as sprinting , inlining , domain shrading and concatenating is     provided.
+
+
+Status code: This protocol introduces a warning header field to carry additional information about the status of a message. It can define 24 status codes, error reporting is quicker and more efficient.
+
+
+
+
+         HTTP 2 - 
+
+
+Protocol : Binary protocol i.e uses 1’s and 0’s to execute the task. Concept of multiplexing is introduced.
+
+
+Speed : Faster
+
+
+Features:This protocol version removes the need for unnecessary optimization hacks.
+
+
+Status code: It brings the fundamental semantics of HTTP like headers, and status code remains the same.
+
+
+
+
+
+
+
+
+________________
+
+
+________________
+
+
+2. Write a blog about objects and its internal representation in Javascript
+ -> Object in Java script -  Is an unique entity having state and behavior (properties and method). i.e          representation of real world entities by defining it properties along with their values. Hence everything is an object.
+
+
+There are three ways to create an object in Java Script
+1. By object literal -
+Syntax : object={property1:value,
+property2:value2
+.....property N:valueN} 
+        Example : stud={id:001,name:"Bhargav ",course:”FSD”}
+// above code creates an object stud with properties id, name, course and corresponding values (assigned after colon symbol” : “)  
+2. By creating instance of Object directly (using new keyword)-
+        Syntax : var objectname=new Object();  
+        Example:
+var stud=new Object();  
+stud.id=001;  
+stud.name="Bhargav";  
+stud.course=”FSD”;  
+ // here ,new keyword is used to create an object. 
+// hence above code creates an object stud with properties id, name, course and corresponding values.
+//here, key in objects are separated by semi colon “ ; “.
+3. By using an object constructor (using new keyword) -
+Here, you need to create function with arguments. Each argument value can be assigned in the current object by using this keyword
+Syntax: objectName= new functionName(attribute1, attribute2, attributeN)
+Using construction function-
+function stud(id,name,course) // here , we created a function stud with attributes id,name,class to call by value
+
+
+{  
+this.id=id;  
+this.name=name;  
+this.salary=salary;  //and created object , using “this” keyword we create properties of an object 
+
+
+}  
+s=new stud(001,"Bhargav",”FSD”); //creating constructor of an object and passing values to function
+
+
+________________
